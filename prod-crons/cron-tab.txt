@@ -1,0 +1,7 @@
+0 11 * * * python3 /home/ec2-user/crons/invoice_reports.py prod & >> /home/ec2-user/crons/invoice_output.log
+30 0 1 4 * python3 /home/ec2-user/asm/yearlyConsolidation.py prod & >> /home/ec2-user/asm/output_prod.log
+0 1 * * *  /usr/bin/python3 /home/ec2-user/dailyAttendanceMarker/dailyAttendanceMarker.py prod  &>> /home/ec2-user/dailyAttendanceMarker/output_prod.log
+0 1 * * * python3 /home/ec2-user/crons/dqg_cron.py prod & >> /home/ec2-user/crons/dqg_output.log
+0 4 * * * python3 /home/ec2-user/productAnalyticsDashboard/productAnalyticsDashboard.py  & >>  /home/ec2-user/productAnalyticsDashboard/productAnalyticsDashboard_output.log
+5 4 * * * python3  /home/ec2-user/procurementDashboard/procurementDashboard.py  & >> /home/ec2-user/procurementDashboard/procurementDashboard_output.log
+10 4 * * * python3  /home/ec2-user/qgDashboard/qgDashboard.py  & >> /home/ec2-user/qgDashboard/qgDashboard_output.log

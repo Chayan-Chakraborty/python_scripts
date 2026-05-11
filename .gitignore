@@ -91,9 +91,7 @@ mysql_mcp_server/
 qdrant_docker_project/
 qdrant_docker_project_old/
 react-qdrant-app/
-prod-crons/
 data_analytics/
-git-operations/
 
 # ---------------------------------------------------------------------------
 # Archives / binaries / large data dumps
