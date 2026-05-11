@@ -1,0 +1,189 @@
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+.Python
+
+# ---------------------------------------------------------------------------
+# Virtual environments / interpreter dirs (dependencies)
+# ---------------------------------------------------------------------------
+env/
+venv/
+ENV/
+.venv/
+**/.venv/
+**/venv/
+**/env/
+myenv/
+**/myenv/
+new_env/
+new-env/
+env.bak/
+venv.bak/
+bin/
+include/
+lib/
+lib64
+share/
+pyvenv.cfg
+Pipfile.lock
+.python-version
+
+# ---------------------------------------------------------------------------
+# Node / frontend dependencies
+# ---------------------------------------------------------------------------
+node_modules/
+**/node_modules/
+.npm/
+.pnpm-store/
+.yarn/
+yarn-error.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+**/dist/
+**/build/
+**/.next/
+**/.nuxt/
+**/.turbo/
+
+# ---------------------------------------------------------------------------
+# Nested Git repositories (have their own .git, tracked separately)
+# ---------------------------------------------------------------------------
+ShopWhisper/
+user_data_analytics/
+Estimator-Items-Analytics/
+arogyaai/
+Estimator-Analytics/
+ai-text-search/
+
+# ---------------------------------------------------------------------------
+# Other large local-only project folders (not meant to be pushed)
+# ---------------------------------------------------------------------------
+ai-estimator-analytics/
+estimator_analytics/
+estimator-ana/
+estimator-service/
+multilingual_item_extractor/
+mysql_mcp_server/
+qdrant_docker_project/
+qdrant_docker_project_old/
+react-qdrant-app/
+prod-crons/
+data_analytics/
+git-operations/
+
+# ---------------------------------------------------------------------------
+# Archives / binaries / large data dumps
+# ---------------------------------------------------------------------------
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.gz
+*.bz2
+*.xz
+*.iso
+*.dmg
+*.exe
+*.bin
+*.dylib
+*.dll
+*.pack
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.parquet
+*.onnx
+*.pt
+*.pth
+*.safetensors
+*.model
+*.ckpt
+*.npy
+*.npz
+
+# Known large data files in this repo
+activity_trackers_30lac.json
+**/cities500.json
+**/events.json
+
+# ---------------------------------------------------------------------------
+# Environment / secrets — NEVER push
+# ---------------------------------------------------------------------------
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+*.pem
+*.key
+*.crt
+*.p12
+secrets.*
+credentials.*
+service-account*.json
+
+# ---------------------------------------------------------------------------
+# IDE / editor / OS
+# ---------------------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ---------------------------------------------------------------------------
+# Logs / databases / caches
+# ---------------------------------------------------------------------------
+*.log
+*.sqlite
+*.sqlite3
+*.db
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+
+# ---------------------------------------------------------------------------
+# Jupyter / Docker local volumes
+# ---------------------------------------------------------------------------
+.ipynb_checkpoints/
+**/qdrant_storage/
+**/chroma_db/
+**/postgres_data/
+**/mysql_data/
+**/mongo_data/
